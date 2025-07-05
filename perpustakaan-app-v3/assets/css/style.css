@@ -1,0 +1,22 @@
+body {
+    background-color: #f1f2f6;
+}
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    min-height: 100vh;
+}
+
+#page-content-wrapper {
+    flex-grow: 1;
+}
+
+.sidebar-heading {
+    font-size: 1.2rem;
+    background-color: #343a40;
+}
